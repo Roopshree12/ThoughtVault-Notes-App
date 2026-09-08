@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/notes";
+const API_URL = "https://thoughtvault-notes-app.onrender.com/notes";
 
 function App() {
   const [notes, setNotes] = useState([]);
